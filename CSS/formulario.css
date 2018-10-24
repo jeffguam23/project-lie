@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+body{
+	background-color: #ECEFF0;
+
+}
+
+
+main, #info-admision, .info-proceso p{
+    text-align: justify; 
+}
+main, #inicio, .ventajas-estudiar-en-ucrania, li{
+	text-align: left;
+}
+h2{
+    text-align: center
+}
+
+main, footer{
+max-width: 80%;
+    margin: auto;
+}
+header{
+max-width: 90%;
+    margin: 0 auto;
+    padding:0 auto;
+}
+h1{
+	text-align: center
+}
+
+
+header .menu {
+    padding: 0;
+    display: flex;
+    
+}
+
+header .container li{
+	display: inline-block;
+}
+
+header .container  li a:hover {
+	color: #ABB6C1;
+}
+
+header .container  li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #143567;
+	text-shadow: 0 3px 0 white;
+}
+
+#INICIO {
+	font-size: 30px;
+	height:350px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+}
+
+#NOSOTROS {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#CONTACTO {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#DESTINOS {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#COSTOS {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#GALERIA {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+
+
+
+header .banner {
+    display: flex;
+    min-height: 450px;
+    background-image: url(../img/computer.jpg);
+    background-size: cover;
+    background-position: top;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
