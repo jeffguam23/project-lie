@@ -1,113 +1,167 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+*{
+    margin:0;
+    padding:0;
+}
 body{
-	background-color: #ECEFF0;
+	background-color: #F3F3F3;
 
+}
+#contenedor{
+   background:#fff;
+   width: 90%;
+   height:100%;
+   margin:0 auto;
+}
+ #fondo{
+    margin: 0 auto;
+    background-color: #9FD5D1;
+    min-height: 220px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav{
+    display: inline-flex;
+}
+.banner div, img{
+    display: grid;
+    align-items: center;
+}
+.menu li {
+    display: inline;
+    
+}
+ .menu li a:hover {
+    text-decoration: underline;
 }
 
 
-main, #inicio, .info-why-study-in-ukraine{
-    text-align: justify; 
+header .menu li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 10px;
+	color: #143567;
+	text-shadow: 0 3px 0 white;
 }
-main, #inicio, .ventajas-estudiar-en-ucrania, li{
-	text-align: left;
+#welcome{
+    
+    text-align: center;
+    padding: 15px
+}
+#info{
+    display: inline-flex;
+    align-items: center
+}
+#inicio{
+    
+    max-width: 100%;
+    text-align: justify;
+    padding: 15px;
+    display: inline;
+    align-items: center
+    
+}
+.our-info li{
+    list-style: none
 }
 h2{
     text-align: center
 }
-#acreditacion-universidad{
-    align-content:center;
-}
 
-main, footer{
-max-width: 80%;
-    margin: auto;
+#ventajas{
+    
+    padding: 15px
 }
-footer, .copyrigth{
-	text-align: center
+.article-ventja{
+    padding: 15px
 }
-
-
-.contactos{
-	display: inline-block
+#acreditacion{
+    
+    padding: 15px
 }
-header{
-max-width: 90%;
-    margin: 0 auto;
-    padding:0 auto;
-}
-
-
-header .menu {
-    padding: 0;
+.logos-uni{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactos{
+    
+    padding: 15px;
+}
+.direccion{
+   
+    padding: 15px;
+}
+.region-contacto{
+   display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
-header .container li{
-	display: inline-block;
-}
-
-header .container  li a:hover {
-	color: #ABB6C1;
-}
-
-header .container  li a {
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 0 30px;
-	color: #143567;
-	text-shadow: 0 3px 0 white;
-}
-
-#INICIO {
-	font-size: 30px;
-	height:350px;
-	margin: 1px 1px 1px 1px;
-	padding: 30px;
-}
-
-#NOSOTROS {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-}
-
-#CONTACTO {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-}
-
-#DESTINOS {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-}
-
-#COSTOS {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-}
-
-#GALERIA {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+footer{
+   
+    text-align: center;
 }
 
 
-
-
-header .banner {
-    display: flex;
-    min-height: 450px;
-    background-image: url(../img/university_franka.jpg);
+@media(max-width:700px){
+    
+    .region-contacto{
+    display: inline-block;
+    align-items: center
+    }
+    #fondo{
+    margin: 0 auto;
+    background-color: #9FD5D1;
+    min-height: 220px;
     background-size: cover;
-    background-position: top;
-    flex-direction: column;
+    background-position: center;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    }
+    .banner div, img{
+    display: grid;
+    align-items: center;
+    }
+    .menu li{
+        display: block;
+        list-style: none;
+    }
+    .menu{
+    padding-left: 0px;
+    }
+    #info{
+    display: block;
+    align-items: center;
+    width: 100%
+   
+    }
+    .logos-uni{
+    display: grid;
+    align-items: center;
+    }
+    .region-contacto{
+    display: block;
+    align-items: center
+    }
+    #inicio{
+    max-width: 100%;
+    text-align: justify;
+    padding: 15px;
+    display: inline-block;
+    align-items: center;
+    }
 }
+
+
+
+
+
+
 

@@ -1,105 +1,138 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lora');
+*{
+    margin:0;
+    padding:0;
+}
 body{
-	background-color: #ECEFF0;
+	background-color: #F3F3F3;
 
 }
-
-main, #info-admision, .info-proceso p{
-    text-align: justify; 
+#contenedor{
+   background:#fff;
+   width: 90%;
+   height:100%;
+   margin:0 auto;
 }
-main, #inicio, .ventajas-estudiar-en-ucrania, li{
-	text-align: left;
-}
-h2{
-    text-align: center
-}
-
-main, footer{
-max-width: 80%;
-    margin: auto;
-}
-header{
-max-width: 90%;
+ #fondo{
     margin: 0 auto;
-    padding:0 auto;
-}
-h1{
-	text-align: center
-}
-
-
-header .menu {
-    padding: 0;
+    background-image: url("../img/uni-franka.png");
+    min-height: 220px;
+    background-size: cover;
+    background-position: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav{
+    display: inline-flex;
+}
+.banner div, img{
+    display: grid;
+    align-items: center;
+}
+.menu li {
+    display: inline;
     
 }
-
-header .container li{
-	display: inline-block;
+ .menu li a:hover {
+    text-decoration: underline;
 }
 
-header .container  li a:hover {
-	color: #ABB6C1;
-}
 
-header .container  li a {
+header .menu li a {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0 30px;
+	padding: 0 10px;
 	color: #143567;
 	text-shadow: 0 3px 0 white;
 }
 
-#INICIO {
-	font-size: 30px;
-	height:350px;
-	margin: 1px 1px 1px 1px;
-	padding: 30px;
-}
 
-#NOSOTROS {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+#info #info-text, aside{
+    display:inline-block;
+    vertical-align: top
+    
 }
-
-#CONTACTO {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+#info-text{
+    background:#F06767;
+    max-width: 100%;
+    width:60%;
+    height: 100%;
+    text-align: justify;
+    padding: 15px
 }
-
-#DESTINOS {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+aside, #info{
+    background:#DBEDFF;
+    max-width: 100%;
+    width:85%;
+    height: 100%;
+    text-align: left
 }
-
-#COSTOS {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+aside, #ukraine{
+    width:80%;
+    height: 100%;
+    text-align: left
 }
-
-#GALERIA {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+footer{
+    background:#784F4B;
+    text-align: center;
+    height: 45px;
 }
 
 
-
-
-header .banner {
-    display: flex;
-    min-height: 450px;
-    background-image: url(../img/estudiante.jpg);
+@media(max-width:700px){
+    body{
+    background: #E0E5E7;
+    }
+    #info #info-text, aside{
+        display:block;
+    }
+    header{
+    width: 100%;
+    height: 220px;
+    }
+    #fondo{
+    margin: 0 auto;
+    background-image: url("../img/uni-franka.png");
+    min-height: 220px;
     background-size: cover;
-    background-position: top;
-    flex-direction: column;
+    background-position: center;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    width: 100%;
+    }
+    .banner div, img{
+    display: grid;
+    align-items: center;
+    }
+    .menu li{
+        display: block;
+        list-style: none
+        
+    }
+    .menu{
+        padding-left: 0px;
+    }
+    #info-text{
+        width: 100%
+    }
+    aside{
+        width: 100%
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
