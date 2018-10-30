@@ -14,14 +14,15 @@ body{
 }
  #fondo{
     margin: 0 auto;
-    background-color: #9FD5D1;
-    min-height: 220px;
+    background-image: url(../img/ukr-bandera.gif);
+    min-height: auto;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-top: 10px
 }
 nav{
     display: inline-flex;
@@ -117,13 +118,15 @@ footer{
     }
     #fondo{
     margin: 0 auto;
-    background-color: #9FD5D1;
-    min-height: 220px;
+    background-image: url(../img/ukr-bandera.gif);
+    min-height: auto;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
     }
     .banner div, img{
     display: grid;
