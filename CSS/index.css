@@ -1,0 +1,389 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+	background-color: #F3F3F3;
+
+}
+#contenedor{
+   background:#fff;
+   width: 90%;
+   height:100%;
+   margin:0 auto;
+}
+.redes a{
+    color:#2E5F8D
+}
+
+ #fondo{
+    margin: 0 auto;
+    background-color: #6b7777;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+nav{
+    display: inline-flex;
+}
+.logo-azul{
+    display: grid;
+    align-items: center;
+}
+.menu li {
+    display: inline;
+    
+}
+ .menu li a:hover {
+    text-decoration: underline; 
+}
+#fondo-azul{
+    background-color: #EAF4F6;
+    width: 35%; 
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.aloja-trans{
+    display: inline-block;
+    align-content: center;
+    padding-left: 30px;
+    
+}
+
+
+.info-porq{
+    background-color: #003d75cf;
+    color:#FFFFFF;
+    line-height: 1.9em;
+    text-align: center;
+    
+    
+}
+.boton-volver{
+    background-color: #2E5F8D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 40px;
+}
+.boton-volver a{
+    color: #e7f0f9;
+    padding-right: 20px;
+    padding-bottom: 10px
+}
+  
+.contacto{
+    height: 180px;
+    margin: 0 auto;
+    background-image: url(../img/contac.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto h{
+    color:#00305B;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contacto p{
+    font-size: 25px;
+    color:#005161;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #9ecfff));
+	background:-moz-linear-gradient(top, #79bbff 5%, #9ecfff 100%);
+	background:-webkit-linear-gradient(top, #79bbff 5%, #9ecfff 100%);
+	background:-o-linear-gradient(top, #79bbff 5%, #9ecfff 100%);
+	background:-ms-linear-gradient(top, #79bbff 5%, #9ecfff 100%);
+	background:linear-gradient(to bottom, #79bbff 5%, #9ecfff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#9ecfff',GradientType=0);
+	background-color:#79bbff;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 34px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9ecfff), color-stop(1, #79bbff));
+	background:-moz-linear-gradient(top, #9ecfff 5%, #79bbff 100%);
+	background:-webkit-linear-gradient(top, #9ecfff 5%, #79bbff 100%);
+	background:-o-linear-gradient(top, #9ecfff 5%, #79bbff 100%);
+	background:-ms-linear-gradient(top, #9ecfff 5%, #79bbff 100%);
+	background:linear-gradient(to bottom, #9ecfff 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ecfff', endColorstr='#79bbff',GradientType=0);
+	background-color:#9ecfff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.collage{
+   background-image: url(../img/lviv-poli.png);
+    width:100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-items: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+.info-porq h2{
+    padding-top: 50px;
+    font-size: 35px;
+}
+.info-porq p{
+    padding: 80px;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.numero-servi h{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00305B;
+}
+.numero-servi li{
+    font-size: 17px;
+    color: #41B7C4;
+    
+}
+.aseso-visa{
+    display: inline-block;
+    align-content: center;
+}
+
+.numero-servi {
+    text-align: left;
+    display: inline-flex;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+#ventajas-estudios{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    text-align: center
+}
+
+
+
+
+header .menu li a {
+	
+	text-decoration: none;
+	padding: 0 10px;
+	color:#edf0f5;
+
+}
+#welcome{
+    text-align: center;
+    padding: 15px
+}
+#info{
+    display: inline-flex;
+    align-items: center
+}
+#inicio{
+    max-width: 100%;
+    text-align: justify;
+    padding: 15px;
+    display: inline;
+    align-items: center
+    
+}
+.our-info li{
+    list-style: none
+}
+h2{
+    text-align: center
+}
+
+#ventajas{
+    
+    padding: 15px
+}
+.article-ventja{
+    padding: 15px
+}
+#acreditacion{
+    
+    padding: 15px
+}
+.logos-uni{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactos{
+    
+    padding: 15px;
+}
+.direccion{
+   
+    padding: 15px;
+}
+.region-contacto{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#super-fondo{
+    background-image: url(../img/mochilero.jpg);
+    width:100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-items: center;
+    background-attachment: fixed
+    
+}
+.espacio-visa{
+    display: none
+}
+
+h1{
+    color: #FFFFFF;
+}
+.fondo-trans{
+       background-color: #00305b99;
+    
+    width: 50%;
+    height: 600px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-align: center
+}
+.pro{
+    color: #ffffff;
+
+   
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #F0F0F0;
+}
+
+
+@media(max-width:700px){
+    #ventajas-estudios {
+    display: block;
+    }
+    .espacio-visa {
+    display: grid;
+    }
+    #fondo-azul {
+    width: 100%;
+    height: 150px;
+    }
+    .numero-servi {
+    display: inline-block;;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .info-porq p {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .contacto {
+    
+    background-color: #FAFAFA;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    }
+    .aloja-trans {
+    display: inline;
+    padding-left: 0px;
+    }
+    footer section{
+    display: flex;
+    justify-content: center;
+    } 
+    footer {
+    display: block;
+    height: 90px;
+    }
+    
+    #fondo {
+    justify-content: center;
+    padding-bottom: 5px;
+    }
+    
+    .menu li{
+        display: block;
+        list-style: none;
+    }
+    .logos-uni{
+    display: grid;
+    align-items: center;
+    }
+    .logos-uni a{
+    display: flex;
+    justify-content: center;
+    }
+    #contenedor {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    .fondo-trans{
+    width: 100%;
+    }
+    .collage{
+    background-image: url(../img/lviv-poli.png);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: initial;
+    }
+    #super-fondo{
+    background-attachment: initial;
+    }
+}
+
+
+
+
+
+
+

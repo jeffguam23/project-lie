@@ -1,160 +1,175 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>LIE | Formulario</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="CSS/formulario.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="img/logo-azul.png">
+        <title>LIE | Lion Inter Education</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/formulario-.css">
+        <link rel="icon" 
+          type="image/png" 
+          href="img/logo-icono.gif">
 </head>
-    
 <body>
-    <header id=home>
-         <div class="container">
-            <div class="banner">
-                <nav>
-                    <ul class="menu">
-                        <li><a href="#inicio">INICIO</a></li>
+        <section id="contenedor">
+        <header id=home>
+            <div id="fondo">
+                <div>
+                    <a href="index.html"><img src="img/logo-solo.png" alt="logo-Lie" width=68></a>
+                </div>
+                    <div class="banner">
+                        <nav>
+                        
+                        <div>
+                        <ul class="menu">
+                        <li><a href="index.html">INICIO</a></li>
                         <li><a href="nosotros.html">NOSOTROS</a></li>
-                        <li><a href="#contacto">CONTACTO</a></li>
-                        <li><img src="img/logo_lie.png" alt="Lion InterEducation" width=86></li>
-                        <li><a href="under.html">COSTOS DE VIDA</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
                         <li><a href="galeria.html">GALERIA </a></li>
                         <li><a href="admision.html">ADMISION</a></li>
-                    </ul>
-                </nav>
+                        </ul>
+                        </div>
+                        </nav>
+                    </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <h1>Formulario</h1>
-            <div class="entry-content">
-                <p>La admisión para estudiar en Ucrania es simple, complete el siguiente formulario de solicitud en línea y estará en el camino hacia una buena educación.</p>
-                <div class="info-box">
-                    <h2>Instrucciones</h2>
-                    <p>Debes adjuntar <b>fotos escaneadas</b> de documentos </p>
-                
-            
+            <div id="super-fondo">
+            <div class="fondo-trans">
+                <h1>FORMULARIO</h1>
             </div>
-                <ul>
-                    <li>Llene el formulario</li>
-                    <li>Adjuntes los docuemtos escaneados </li>
-                    <li>presione Enviar</li>
-                </ul>
-                <hr>
-                <p><span>Tenga en cuenta que los campos marcados con (*) son requeridos.</span></p>
-                
-                <form method="POST" action="https://formspree.io/jeffguam23@hotmail.it">
-                    <label>Nombres:
-                        <input type="text" placeholder="Por ejemplo Jhon Alejandro" required="">
-                    </label><br>
+            </div>
+        </header>
+            <section id="info-formulario">
+                <h1>La admisión para estudiar en Ucrania es simple, complete el siguiente formulario de solicitud en línea y estará en el camino hacia una buena educación.</h1>
+                <br>
+                <div class="entry-content">
+                    <div class="info-box">
+                        <h>Instrucciones</h>
+                            <ul>
+                                <li>Llene el formulario</li>
+                                <li>Adjuntes los docuemtos escaneados </li>
+                                <li>presione Enviar</li>
+                                <br>
+                            </ul>
+                            
+                <div class="entry-content">
+                    <p><span>Tenga en cuenta que los campos marcados con (*) son requeridos.</span></p>
                     <br>
-                
-                    <label>Apellidos:
-                        <input type="text" placeholder="Por ejemplo Ruiz Aguilar" required="">
-                    </label> <br>
-                    <br>
+                    <form method="POST" action="https://formspree.io/jeffguam23@hotmail.it">
+                        <label for="Nombres">
+                            <input size="30" type="text" name="Nombres" placeholder="Nombres completos*" required="">
+                        </label><br>
+                        
                     
-                    <label>Fecha de nacimiento:
-                        <input type="text" placeholder="Por ejemplo 18 de Enero del 1999" required="">
-                    </label> <br>
-                    <br>
-                
-                    <label for="Nacionalidad">Nacionalidad:
-                        <input type="text" name="Nacionalidad" placeholder="Por ejemplo Ecuatoriana" id="Nacionalidad" required="">
-                    </label> <br>
-                    <br>
+                        <label for="Apellidos">
+                            <input size="30"type="text" name="Apellidos" placeholder="Apellidos completos*" required="">
+                        </label> <br>
+                        
+                        
+                        <label for="Fecha de nacimiento">
+                            <input size="30" type="text" name="Fecha de nacimiento" placeholder="Fecha de nacimiento* DD/MM/AAAA" required="">
+                        </label> <br>
+                        
                     
-                    <label>Genero:</label>
-                    <br>
-                    
-                    <label>
-                        <input type="radio" name="genero" value="Masculino">Masculino
-                    </label>
-                    
-                    <label>
-                        <input type="radio" name="genero" value="Femenino">Femenino
-                    </label>
-                    
-                    <label>
-                        <input type="radio" name="genero" value="Otro" checked>Otro
-                    </label>
-                    <br>
-                    <br>
-                    
-                    <label>Direcion:
-                        <input type="text" placeholder="Ciudad, Sector" required="">
-                    </label>
-                    <br>
-                    <br>
-                    
-                    <label>Numero pasaporte:
-                        <input type="text" placeholder="#####" required="">
-                    </label>
-                    <br>
-                    <br>
-                    
-                    
-                    <label>cuando le gustaria viajar:
-                        <input type="text" placeholder="lo antes posible" required=""><input type="radio">Aun no tengo pasaporte
-                    </label>
-                    <br>
-                    <br>
-                    
-                    <label>Que carrera desea estudiar?:
-                        <input type="text" placeholder="Ing, Medicina, Aviacion..." required="">
-                    </label>
-                    <br>
-                    <br>
-                    
-                    <label>E-mail:
-                        <input type="email" name="E-mail" placeholder="example@gmail.com" id="e-mail" required="">
-                    </label> <br>
-                    <br>
-                    
-                    <label>Confirme E-mail:
-                        <input type="email" required="">
-                    </label> <br>
-                    <br>
+                        <label for="Nacionalidad">
+                            <input size="30" type="text" name="Nacionalidad" placeholder="Nacionalidad*" required="">
+                        </label> <br>
+                       
+                        
+                        <label for"Genero">Genero:
+                        <br>
+                        <label>
+                            <input type="radio" name="Genero" value="Masculino">Masculino
+                        </label>
+                        
+                        <label>
+                            <input type="radio" name="Genero" value="Femenino">Femenino
+                        </label>
+                        
+                        <label>
+                            <input type="radio" name="Genero" value="Otro" checked="">Otro
+                        </label>
+                        </label><br>
+                        
+                        <label for="Direccion">
+                        <input size="30" type="text" name="Direccion" placeholder="Direccion*: Ciudad, Sector" required="">
+                        </label><br>
+                        
+                        <label for="Pasaporte">
+                            <input size="15" type="text" name="Pasaporte" placeholder="Numero de pasaporte:" >
+                            <input type="radio">Aun no tengo pasaporte
+                        </label><br>
+                        
+                        <label for="Fecha">
+                            <input size="30" type="text" name="Fecha" placeholder="Cuando le gustaria viajar:">
+                        </label><br>
+                        
+                        <label for="Carrera">
+                            <input  size="30" type="text" name="Carrera" placeholder="Que carrera desea estudiar?*:" required="">
+                        </label><br>
+                       
+                        <label for="E-mail">
+                            <input size="30" type="email" name="E-mail" placeholder="E-mail*" id="e-mail" required="">
+                        </label><br>
                    
-                <label>Adjuntar documento de:</label>
-                <br>
-                <br>
-                <label>Foto escaneada de pasaporte internacional</label>
-                <br>
-                <span>
-                    <input type="file" name="passport-doc">
-                </span>
-                <p>
-                    <label>Foto escaneada del Certificado/Titulo del colegio</label>
+                    <h>Adjuntar documento de:</h>
                     <br>
-                    <span><input type="file"></span>
-                </p>
-                <p>* Al hacer clic en "Enviar" a continuación, usted acepta recibir correos electrónicos y actualizaciones de Study in Ukraine
-                </p>
-                <p>
-                    <input type="submit" value="SEND">
-                </p>
+                    <laabel>Foto escaneada de pasaporte internacional</label>
+                    <br>
+                    <input type="file" name="passport-doc">
+                    <br>
+                    <label for="file">Foto escaneada del Certificado/Titulo de Bachiller</label>
+                    <br>
+                    <input name="file" type="file"></span>
+                    <br>
+                    <p1>* Al hacer clic en "Enviar" a continuación, usted acepta recibir correos electrónicos y actualizaciones de LIE InterEducation</p1>
+                    <br><br>
+                    <label><input class="myButton" type="submit" value="SEND"></label>
+                    <br><br>
                 </form>
             </div>
-    </main>
-    <footer>
-        <hr>
-        <ul>
-            <li>lion.international.education@gmail.com</li>
-            <li>Whatsapp: +380888888888</li>
-            <li> <a href="https://www.facebook.com/lioninternationaleducation/">ttps://www.facebook.com/lioninternationaleducation</a></li>
-            <li>www.lie-study-program.com</li>
-        </ul>
-        <h5>
-        <span>
-            Copyright 2018 - Created by Jefferson Guaman
-            </span>
-        </h5>
+                        </div>
+                </aside>
+            </section>
+            
+            
+            <section class="contacto">
+                <div>
+                    <h>¿Más información? Contáctanos</h>
+                    <p>Estamos aquí para asisitirte. Contáctanos por teléfono o mediante nuestros canales sociales. 
+                    </p>
+                </div>
+                <div>
+                    <a href="contacto.html" class="myButton">Contactar</a>
+                </div>
+            </section>
+            <section class="boton-volver">
+                <div>
+                    <a href="#home" class="fas fa-angle-up fa-2x"></a>
+                </div>
+            </section>
         
-    </footer>
+        <footer>
+            <section id="pie_pagina">
+                <div class="iconos-redes">
+                    <p>©2018 - Derechos reservados de LIE</p>
+                </div>
+            </section>
+            <section>
+                <div class="redes">
+                    <a href="https://www.facebook.com/lioninternationaleducation/" class="fab fa-facebook-square fa-2x"  ><span class="label"> </span></a>
+                    <a href="https://www.instagram.com/lion.international.education/?utm_source=ig_profile_share&igshid=favgiwzwcodl&fbclid=IwAR2JSv0YqcacnmrxVporXVWV2y-AUXWf7frUt1SofzZjW4b5tFi-tsMpS2w" class="fab fa-instagram fa-2x"><span class="label"> </span></a>
+                    <a href="mailto:lion.international.education@gmail.com" class="fas fa-envelope fa-2x"><span class="label"> </span></a>
+                    
+                </div>
+            </section>
+            <section>
+                <div class="creado">
+                    <p>Created by Jefferson Guaman</p>
+                </div>
+            </section>
+        </footer>
+        </section>
 </body>
 </html>
