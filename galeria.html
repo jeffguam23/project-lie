@@ -5,16 +5,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <link rel="stylesheet" href="CSS/galeria.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="css/galeria-.css">
         <link rel="icon" 
           type="image/png" 
           href="img/logo-icono.gif">
 </head>
 <body>
-        <section id="contenedor">
+        <div id="contenedor">
         <header id=home>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="img/logo-solo.png" alt="logo-Lie" width=68></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="galeria.html">GALERIA<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="admision.html">ADMISION</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
             <div id="fondo">
                 <div>
                     <a href="index.html"><img src="img/logo-solo.png" alt="logo-Lie" width=68></a>
@@ -27,7 +55,7 @@
                         <li><a href="index.html">INICIO</a></li>
                         <li><a href="nosotros.html">NOSOTROS</a></li>
                         <li><a href="contacto.html">CONTACTO</a></li>
-                        <li><a href="galeria.html">GALERIA </a></li>
+                        <li><a href="galeria.html">GALERIA</a></li>
                         <li><a href="admision.html">ADMISION</a></li>
                         </ul>
                         </div>
@@ -40,87 +68,119 @@
             </div>
             </div>
         </header>
-            <section id="fotos">
-                <ul>
-                    <li><a href="#img1"><img src="img/1.jpg" class="min"</a></li>
-                    <li><a href="#img2"><img src="img/2.jpg" class="min"</a></li>
-                    <li><a href="#img3"><img src="img/3.jpg" class="min"</a></li>
-                    <li><a href="#img4"><img src="img/4.jpg" class="min"</a></li>
-                </ul>
-                <div class="lbox" id="img1">
-                    <div class="box_img">
-                        <a href="#img4" class="btn" id="prev">&#171;</a>
-                        <a href="" class="btn" id="close">X</a>
-                        <img src="img/1.jpg">
-                        <a href="#img2" class="btn" id="next">&#187;</a>
+            <div id="fotos">
+                <div class="row">
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/1.jpg" alt="Ukraine photo">
                     </div>
-                </div>
-                
-                <div class="lbox" id="img2">
-                    <div class="box_img">
-                        <a href="#img1" class="btn" id="prev">&#171;</a>
-                        <a href="" class="btn" id="close">X</a>
-                        <img src="img/2.jpg">
-                        <a href="#img3" class="btn" id="next">&#187;</a>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/2.jpg" alt="Ukraine photo">
                     </div>
-                </div>
-                
-                <div class="lbox" id="img3">
-                    <div class="box_img">
-                        <a href="#img2" class="btn" id="prev">&#171;</a>
-                        <a href="" class="btn" id="close">X</a>
-                        <img src="img/3.jpg">
-                        <a href="#img4" class="btn" id="next">&#187;</a>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/3.jpg" alt="Ukraine photo">
                     </div>
-                </div>
-                
-                <div class="lbox" id="img4">
-                    <div class="box_img">
-                        <a href="#img3" class="btn" id="prev">&#171;</a>
-                        <a href="" class="btn" id="close">X</a>
-                        <img src="img/4.jpg">
-                        <a href="#img1" class="btn" id="next">&#187;</a>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/4.jpg" alt="Ukraine photo">
                     </div>
-                </div>
-            </section>
-            
-            
-            <section class="contacto">
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/5.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/6.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/7.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/8.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/9.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/10.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/11.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/12.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/13.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/14.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/15.jpg" alt="Ukraine photo">
+                    </div>
+                    
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 wow bounceInUp">
+                      <img class="card-img-top" src="img/16.jpg" alt="Ukraine photo">
+                    </div>
+                 </div>  
+            </div>
+            <div class="contacto">
                 <div>
-                    <h>¿Más información? Contáctanos</h>
+                    <h2>¿Más información? Contáctanos</h2>
                     <p>Estamos aquí para asisitirte. Contáctanos por teléfono o mediante nuestros canales sociales. 
                     </p>
                 </div>
                 <div>
                     <a href="contacto.html" class="myButton">Contactar</a>
                 </div>
-            </section>
-            <section class="boton-volver">
+            </div>
+            <div class="boton-volver">
                 <div>
                     <a href="#home" class="fas fa-angle-up fa-2x"></a>
                 </div>
-            </section>
+            </div>
         
         <footer>
-            <section id="pie_pagina">
+            <div id="pie_pagina">
                 <div class="iconos-redes">
                     <p>©2018 - Derechos reservados de LIE</p>
                 </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <div class="redes">
                     <a href="https://www.facebook.com/lioninternationaleducation/" class="fab fa-facebook-square fa-2x"  ><span class="label"> </span></a>
                     <a href="https://www.instagram.com/lion.international.education/?utm_source=ig_profile_share&igshid=favgiwzwcodl&fbclid=IwAR2JSv0YqcacnmrxVporXVWV2y-AUXWf7frUt1SofzZjW4b5tFi-tsMpS2w" class="fab fa-instagram fa-2x"><span class="label"> </span></a>
                     <a href="mailto:lion.international.education@gmail.com" class="fas fa-envelope fa-2x"><span class="label"> </span></a>
                     
                 </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <div class="creado">
                     <p>Created by Jefferson Guaman</p>
                 </div>
-            </section>
+            </div>
         </footer>
-        </section>
+        </div>
+        
+        
+    
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/galeria.js"></script>
 </body>
 </html>
