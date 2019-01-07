@@ -202,6 +202,17 @@ header .menu li a {
 .bg-light{
     display:none;
 }
+.creado a{
+    text-decoration: none;
+}
+body {
+  background: #fefefe;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-family: 'Roboto Mono';
+}
 footer{
     display: flex;
     justify-content: space-between;

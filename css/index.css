@@ -13,6 +13,7 @@ body{
    height:100%;
    margin:0 auto;
    
+   
 }
 .redes a{
     color:#2E5F8D
@@ -68,11 +69,11 @@ nav{
 #fondo-azul{
     background-color: #EAF4F6;
     width: 35%; 
-    
+    color: #00305B;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 50px;
 }
 .aloja-trans{
     display: inline-block;
@@ -96,7 +97,15 @@ nav{
     color:#FFFFFF;
     line-height: 1.9em;
     text-align: center;
-    
+    font-size: 80
+}
+body {
+  background: #fefefe;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-family: 'Roboto Mono';
 }
 .boton-volver{
     background-color: #2E5F8D;
@@ -127,6 +136,7 @@ nav{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    
 }
 
 .contacto h3{
@@ -173,7 +183,7 @@ nav{
 	background:linear-gradient(to bottom, #9ecfff 5%, #79bbff 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ecfff', endColorstr='#79bbff',GradientType=0);
 	background-color:#9ecfff;
-    
+    text-decoration: none;
     
 }
 .myButton:active {
@@ -267,8 +277,9 @@ header .menu li a {
 .our-info li{
     list-style: none
 }
-h2{
-    text-align: center
+.info-porq h2{
+    text-align: center;
+    color: #FFFFFF;
 }
 
 #ventajas{
@@ -279,8 +290,11 @@ h2{
     padding: 15px
 }
 #acreditacion{
-    
+    color: #00305B;
     padding: 15px
+}
+.creado a{
+    text-decoration: none;
 }
 .logos-uni{
     display: flex;
@@ -340,7 +354,6 @@ footer{
     height: 40px;
     background-color: #F0F0F0;
 }
-
 
 @media(max-width:700px){
     #ventajas-estudios {

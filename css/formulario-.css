@@ -37,7 +37,18 @@ nav{
 .menu li {
     display: inline;
     font-size: 20px;
-    
+   
+}
+.creado a{
+    text-decoration: none;
+}
+body {
+  background: #fefefe;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-family: 'Roboto Mono';
 }
  .menu li a:hover {
     color: black;

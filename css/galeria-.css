@@ -207,7 +207,10 @@ footer{
     justify-content: space-between;
     height: 40px;
     background-color: #F0F0F0;
+     color: black
 }
+
+ 
 .m-p-g {
   max-width: 100%;
   margin: 0 auto;
@@ -398,7 +401,7 @@ footer{
   color: red;
 }
 
-/* DEMO */
+
 body {
   background: #fefefe;
   color: white;
@@ -406,6 +409,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   font-family: 'Roboto Mono';
+}
+.creado a{
+    text-decoration: none;
 }
 
 h2 {

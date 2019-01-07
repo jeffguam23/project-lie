@@ -37,6 +37,17 @@ nav{
     display: grid;
     align-items: center;
 }
+.creado a{
+    text-decoration: none;
+}
+body {
+  background: #fefefe;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-family: 'Roboto Mono';
+}
 .menu li {
     display: inline;
     font-size: 20px;
@@ -181,9 +192,13 @@ header .menu li a {
      padding-left: 70px;
     padding-right: 70px;
 }
+p{
+    font-size: 17px
+}
 .txt p{
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 30px
 }
 .info-admision {
     background-color: #EAF4F6;
